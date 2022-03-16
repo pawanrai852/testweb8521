@@ -5,6 +5,12 @@ We will help you to Find the Locations where the Proxy is used inside this Branc
 
 Note: Proxy is only for Devlopment Enviroment
 
+## Proxy URL
+
+```http
+  http://OutboundProxyLoadBalancer-2cd9c26cbebfd325.elb.us-east-1.amazonaws.com:3128
+```
+
 ## config.json uses Proxy
 
 ### 1. Location of Config.json
@@ -46,4 +52,3 @@ Used to retrive the secrets from AWS Secret Manager
 ``` http
   const retrieveSecrets = require("secret-manager.ts");
 ```
-
