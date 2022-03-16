@@ -52,3 +52,14 @@ Used to retrive the secrets from AWS Secret Manager
 ``` http
   const retrieveSecrets = require("secret-manager.ts");
 ```
+
+
+# Athena Location 
+
+Used to use athena
+
+### 1. Location of athena Helper
+
+```http
+  import AthenaHelper from '../../../../util/athenaHelper';
+```
