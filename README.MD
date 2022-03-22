@@ -11,19 +11,13 @@ Note: Proxy is only for Devlopment Enviroment
   http://OutboundProxyLoadBalancer-2cd9c26cbebfd325.elb.us-east-1.amazonaws.com:3128
 ```
 
-## config.json uses Proxy
+##  Proxy is used in Following Files
 
 ### 1.1 Location of Config.json
 
 ```http
   sh-apis\NodeJS_API\src\config\config.json
 ```
-#### Deatils
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `Query`   | `Athena` | **Required**. For Query Athena DataBase |
-| `Email`   | `SMTP`   | **Required**. For Sending SMTP Emails   |
 
 ## channel-config.controller.ts used Proxy
 
@@ -32,11 +26,6 @@ Note: Proxy is only for Devlopment Enviroment
 ```http
   sh-apis\NodeJS_API\src\controllers\api\channel\channel-config.controller.ts
 ```
-#### Deatils
-
-| Parameter | Type     | Description                  |
-| :-------- | :------- | :-------------------------   |
-| `channel` | `Set Config` | **Required**. For API to work |
 
 # Secret Manager Location
 
